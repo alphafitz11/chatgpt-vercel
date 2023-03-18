@@ -1,7 +1,7 @@
 {
   "git": {
     "deploymentEnabled": {
-      "node": false
+      "zeabur": false
     }
   }
 }
