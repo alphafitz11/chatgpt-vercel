@@ -44,7 +44,6 @@ export default defineConfig({
   ],
   output: "server",
   adapter: node({
-    port: 8080,
     mode: "standalone"
   })
 })
