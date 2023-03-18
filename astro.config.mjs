@@ -1,5 +1,4 @@
 import { defineConfig } from "astro/config"
-import vercel from "@astrojs/vercel/edge"
 import unocss from "unocss/astro"
 import {
   presetUno,
@@ -8,6 +7,7 @@ import {
   presetTypography
 } from "unocss"
 import solidJs from "@astrojs/solid-js"
+import node from "@astrojs/node"
 
 // https://astro.build/config
 export default defineConfig({
@@ -43,5 +43,7 @@ export default defineConfig({
     solidJs()
   ],
   output: "server",
-  adapter: vercel()
+  adapter: node({
+    mode: "standalone"
+  })
 })
