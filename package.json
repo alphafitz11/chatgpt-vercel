@@ -11,7 +11,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "start": "HOST=$chatgpt-vercel_HOST PORT=$PORT node ./dist/server/entry.mjs",
+    "start": "HOST=$chatgpt_HOST PORT=$PORT node ./dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {
