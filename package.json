@@ -9,9 +9,9 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && echo $PORT",
+    "build": "astro build",
     "preview": "astro preview",
-    "start": "node ./dist/server/entry.mjs && echo $PORT",
+    "start": "HOST=$chatgpt-vercel_HOST PORT=$PORT node ./dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {
