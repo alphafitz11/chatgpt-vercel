@@ -9,9 +9,9 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && echo $PORT",
     "preview": "astro preview",
-    "start": "PORT=8080 node ./dist/server/entry.mjs",
+    "start": "node ./dist/server/entry.mjs && echo $PORT",
     "astro": "astro"
   },
   "dependencies": {
