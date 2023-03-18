@@ -1,6 +1,14 @@
 ## 查询余额
 查询填写的 Key 的余额。
 
+## 量化讨论
+
+我想让你充当一个量化投资策略开发工程师，我有量化投资策略相关的问题想要和你讨论。我的第一个问题是：
+
+## Quant discussion
+
+I want you to act as a quantitative investment strategy development engineer. I have some questions related to quantitative investment strategies that I want to discuss with you. My first question is:
+
 ## 总结对话
 
 请总结当前我们的对话，尽量简洁准确。
